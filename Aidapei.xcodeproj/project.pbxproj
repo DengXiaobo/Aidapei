@@ -1,0 +1,1250 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040208771D531FA700A13009 /* DataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 040208761D531FA700A13009 /* DataBase.m */; };
+		044512C51D4DAC7C00E4A8D3 /* dxbTableViewCell0.m in Sources */ = {isa = PBXBuildFile; fileRef = 044512BF1D4DAC7C00E4A8D3 /* dxbTableViewCell0.m */; };
+		044512C61D4DAC7C00E4A8D3 /* dxbTableViewCell1.m in Sources */ = {isa = PBXBuildFile; fileRef = 044512C11D4DAC7C00E4A8D3 /* dxbTableViewCell1.m */; };
+		044512C71D4DAC7C00E4A8D3 /* dxbTableViewCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = 044512C31D4DAC7C00E4A8D3 /* dxbTableViewCell2.m */; };
+		044512CA1D4DACC400E4A8D3 /* ZhidemaiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044512C91D4DACC400E4A8D3 /* ZhidemaiViewController.m */; };
+		044EFBBE1D50C3B1001EC515 /* dxbSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 044EFBBD1D50C3B1001EC515 /* dxbSearchBar.m */; };
+		0471A04C1D5382D400516B92 /* LDhttpEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 0471A04B1D5382D400516B92 /* LDhttpEngine.m */; };
+		0474B3EF1D51822C00232FC7 /* dxbCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0474B3EE1D51822C00232FC7 /* dxbCollectionViewController.m */; };
+		0474B3F51D51833000232FC7 /* dxbConnectUSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0474B3F41D51833000232FC7 /* dxbConnectUSViewController.m */; };
+		0474B3FA1D51851300232FC7 /* dxbSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0474B3F91D51851300232FC7 /* dxbSettingViewController.m */; };
+		047F85D21D51C5BF00B04D49 /* dxbDiscoverCell0.m in Sources */ = {isa = PBXBuildFile; fileRef = 047F85D11D51C5BF00B04D49 /* dxbDiscoverCell0.m */; };
+		047F85D51D51D3ED00B04D49 /* dxbDiscoverCell1.m in Sources */ = {isa = PBXBuildFile; fileRef = 047F85D41D51D3ED00B04D49 /* dxbDiscoverCell1.m */; };
+		047F85D81D51D8CF00B04D49 /* dxbDiscoverCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = 047F85D71D51D8CF00B04D49 /* dxbDiscoverCell2.m */; };
+		047F85DB1D51DABE00B04D49 /* dxbDiscoverCell3.m in Sources */ = {isa = PBXBuildFile; fileRef = 047F85DA1D51DABE00B04D49 /* dxbDiscoverCell3.m */; };
+		047F85DF1D51ECA100B04D49 /* DiscoverModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 047F85DE1D51ECA100B04D49 /* DiscoverModel.m */; };
+		047F86021D520E9800B04D49 /* dxbDiscoverDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047F86011D520E9800B04D49 /* dxbDiscoverDetailViewController.m */; };
+		047F86051D521C4300B04D49 /* DiscoverDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 047F86041D521C4300B04D49 /* DiscoverDetailModel.m */; };
+		04C11B9E1D4B714A001869DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C11B9D1D4B714A001869DF /* main.m */; };
+		04C11BA11D4B714A001869DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C11BA01D4B714A001869DF /* AppDelegate.m */; };
+		04C11BA31D4B714A001869DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C11BA21D4B714A001869DF /* Assets.xcassets */; };
+		04C11BB11D4B714B001869DF /* AidapeiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C11BB01D4B714B001869DF /* AidapeiTests.m */; };
+		04C11BBC1D4B714B001869DF /* AidapeiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C11BBB1D4B714B001869DF /* AidapeiUITests.m */; };
+		04C11BE71D4B7955001869DF /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C11BE61D4B7955001869DF /* MyViewController.m */; };
+		04C11BEA1D4B796C001869DF /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C11BE91D4B796C001869DF /* DiscoverViewController.m */; };
+		04C5FF721D5385B70034BCBC /* LDActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C5FF591D5385B70034BCBC /* LDActionViewController.m */; };
+		04C5FF731D5385B70034BCBC /* LDMatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C5FF5B1D5385B70034BCBC /* LDMatchViewController.m */; };
+		04C5FF741D5385B70034BCBC /* LDTaoBaoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C5FF5D1D5385B70034BCBC /* LDTaoBaoViewController.m */; };
+		04C5FF751D5385B70034BCBC /* MeidaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C5FF5F1D5385B70034BCBC /* MeidaViewController.m */; };
+		04C5FF761D5385B70034BCBC /* LDClassifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C5FF621D5385B70034BCBC /* LDClassifyViewController.m */; };
+		04C5FF771D5385B70034BCBC /* LDSelectJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C5FF651D5385B70034BCBC /* LDSelectJson.m */; };
+		04C5FF781D5385B70034BCBC /* LDCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C5FF681D5385B70034BCBC /* LDCollectionViewLayout.m */; };
+		04C5FF791D5385B70034BCBC /* LDSelectCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C5FF6A1D5385B70034BCBC /* LDSelectCollectionViewCell.m */; };
+		04C5FF7A1D5385B70034BCBC /* ZhuantiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C5FF6E1D5385B70034BCBC /* ZhuantiViewController.m */; };
+		04C5FF7B1D5385B70034BCBC /* mdztModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C5FF711D5385B70034BCBC /* mdztModel.m */; };
+		04C5FF841D5386A80034BCBC /* LDMatchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C5FF831D5386A80034BCBC /* LDMatchView.m */; };
+		04D042F81D502E7500BD803D /* Const.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D042F21D502E7500BD803D /* Const.m */; };
+		04D042F91D502E7500BD803D /* dxbNetwroking.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D042F51D502E7500BD803D /* dxbNetwroking.m */; };
+		04E771FC1D4EDF7B00B80674 /* ZhidemaiModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E771FB1D4EDF7B00B80674 /* ZhidemaiModel.m */; };
+		5B99032D96D5229B74AF693F /* libPods-Aidapei.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB33CA301092A9578B144426 /* libPods-Aidapei.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04C11BAD1D4B714B001869DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04C11B911D4B714A001869DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04C11B981D4B714A001869DF;
+			remoteInfo = Aidapei;
+		};
+		04C11BB81D4B714B001869DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04C11B911D4B714A001869DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04C11B981D4B714A001869DF;
+			remoteInfo = Aidapei;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		040208751D531FA700A13009 /* DataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBase.h; sourceTree = "<group>"; };
+		040208761D531FA700A13009 /* DataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataBase.m; sourceTree = "<group>"; };
+		044512BE1D4DAC7C00E4A8D3 /* dxbTableViewCell0.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dxbTableViewCell0.h; sourceTree = "<group>"; };
+		044512BF1D4DAC7C00E4A8D3 /* dxbTableViewCell0.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dxbTableViewCell0.m; sourceTree = "<group>"; };
+		044512C01D4DAC7C00E4A8D3 /* dxbTableViewCell1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dxbTableViewCell1.h; sourceTree = "<group>"; };
+		044512C11D4DAC7C00E4A8D3 /* dxbTableViewCell1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dxbTableViewCell1.m; sourceTree = "<group>"; };
+		044512C21D4DAC7C00E4A8D3 /* dxbTableViewCell2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dxbTableViewCell2.h; sourceTree = "<group>"; };
+		044512C31D4DAC7C00E4A8D3 /* dxbTableViewCell2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dxbTableViewCell2.m; sourceTree = "<group>"; };
+		044512C81D4DACC400E4A8D3 /* ZhidemaiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZhidemaiViewController.h; sourceTree = "<group>"; };
+		044512C91D4DACC400E4A8D3 /* ZhidemaiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZhidemaiViewController.m; sourceTree = "<group>"; };
+		044EFBBC1D50C3B1001EC515 /* dxbSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dxbSearchBar.h; path = ../../My/Controller/dxbSearchBar.h; sourceTree = "<group>"; };
+		044EFBBD1D50C3B1001EC515 /* dxbSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = dxbSearchBar.m; path = ../../My/Controller/dxbSearchBar.m; sourceTree = "<group>"; };
+		0471A04A1D5382D400516B92 /* LDhttpEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDhttpEngine.h; sourceTree = "<group>"; };
+		0471A04B1D5382D400516B92 /* LDhttpEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDhttpEngine.m; sourceTree = "<group>"; };
+		0474B3ED1D51822C00232FC7 /* dxbCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dxbCollectionViewController.h; sourceTree = "<group>"; };
+		0474B3EE1D51822C00232FC7 /* dxbCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dxbCollectionViewController.m; sourceTree = "<group>"; };
+		0474B3F31D51833000232FC7 /* dxbConnectUSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dxbConnectUSViewController.h; sourceTree = "<group>"; };
+		0474B3F41D51833000232FC7 /* dxbConnectUSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dxbConnectUSViewController.m; sourceTree = "<group>"; };
+		0474B3F81D51851300232FC7 /* dxbSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dxbSettingViewController.h; sourceTree = "<group>"; };
+		0474B3F91D51851300232FC7 /* dxbSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dxbSettingViewController.m; sourceTree = "<group>"; };
+		047F85D01D51C5BF00B04D49 /* dxbDiscoverCell0.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dxbDiscoverCell0.h; sourceTree = "<group>"; };
+		047F85D11D51C5BF00B04D49 /* dxbDiscoverCell0.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dxbDiscoverCell0.m; sourceTree = "<group>"; };
+		047F85D31D51D3ED00B04D49 /* dxbDiscoverCell1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dxbDiscoverCell1.h; sourceTree = "<group>"; };
+		047F85D41D51D3ED00B04D49 /* dxbDiscoverCell1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dxbDiscoverCell1.m; sourceTree = "<group>"; };
+		047F85D61D51D8CF00B04D49 /* dxbDiscoverCell2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dxbDiscoverCell2.h; sourceTree = "<group>"; };
+		047F85D71D51D8CF00B04D49 /* dxbDiscoverCell2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dxbDiscoverCell2.m; sourceTree = "<group>"; };
+		047F85D91D51DABE00B04D49 /* dxbDiscoverCell3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dxbDiscoverCell3.h; sourceTree = "<group>"; };
+		047F85DA1D51DABE00B04D49 /* dxbDiscoverCell3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dxbDiscoverCell3.m; sourceTree = "<group>"; };
+		047F85DD1D51ECA100B04D49 /* DiscoverModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverModel.h; sourceTree = "<group>"; };
+		047F85DE1D51ECA100B04D49 /* DiscoverModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverModel.m; sourceTree = "<group>"; };
+		047F86001D520E9800B04D49 /* dxbDiscoverDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dxbDiscoverDetailViewController.h; sourceTree = "<group>"; };
+		047F86011D520E9800B04D49 /* dxbDiscoverDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dxbDiscoverDetailViewController.m; sourceTree = "<group>"; };
+		047F86031D521C4300B04D49 /* DiscoverDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverDetailModel.h; sourceTree = "<group>"; };
+		047F86041D521C4300B04D49 /* DiscoverDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverDetailModel.m; sourceTree = "<group>"; };
+		04C11B991D4B714A001869DF /* Aidapei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aidapei.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C11B9D1D4B714A001869DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04C11B9F1D4B714A001869DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04C11BA01D4B714A001869DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04C11BA21D4B714A001869DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04C11BA71D4B714A001869DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C11BAC1D4B714B001869DF /* AidapeiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AidapeiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C11BB01D4B714B001869DF /* AidapeiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AidapeiTests.m; sourceTree = "<group>"; };
+		04C11BB21D4B714B001869DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C11BB71D4B714B001869DF /* AidapeiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AidapeiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C11BBB1D4B714B001869DF /* AidapeiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AidapeiUITests.m; sourceTree = "<group>"; };
+		04C11BBD1D4B714B001869DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C11BE51D4B7955001869DF /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		04C11BE61D4B7955001869DF /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		04C11BE81D4B796C001869DF /* DiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverViewController.h; sourceTree = "<group>"; };
+		04C11BE91D4B796C001869DF /* DiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverViewController.m; sourceTree = "<group>"; };
+		04C5FF581D5385B70034BCBC /* LDActionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDActionViewController.h; sourceTree = "<group>"; };
+		04C5FF591D5385B70034BCBC /* LDActionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDActionViewController.m; sourceTree = "<group>"; };
+		04C5FF5A1D5385B70034BCBC /* LDMatchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDMatchViewController.h; sourceTree = "<group>"; };
+		04C5FF5B1D5385B70034BCBC /* LDMatchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDMatchViewController.m; sourceTree = "<group>"; };
+		04C5FF5C1D5385B70034BCBC /* LDTaoBaoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDTaoBaoViewController.h; sourceTree = "<group>"; };
+		04C5FF5D1D5385B70034BCBC /* LDTaoBaoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDTaoBaoViewController.m; sourceTree = "<group>"; };
+		04C5FF5E1D5385B70034BCBC /* MeidaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeidaViewController.h; sourceTree = "<group>"; };
+		04C5FF5F1D5385B70034BCBC /* MeidaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeidaViewController.m; sourceTree = "<group>"; };
+		04C5FF611D5385B70034BCBC /* LDClassifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDClassifyViewController.h; sourceTree = "<group>"; };
+		04C5FF621D5385B70034BCBC /* LDClassifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDClassifyViewController.m; sourceTree = "<group>"; };
+		04C5FF641D5385B70034BCBC /* LDSelectJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDSelectJson.h; sourceTree = "<group>"; };
+		04C5FF651D5385B70034BCBC /* LDSelectJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDSelectJson.m; sourceTree = "<group>"; };
+		04C5FF671D5385B70034BCBC /* LDCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDCollectionViewLayout.h; sourceTree = "<group>"; };
+		04C5FF681D5385B70034BCBC /* LDCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDCollectionViewLayout.m; sourceTree = "<group>"; };
+		04C5FF691D5385B70034BCBC /* LDSelectCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDSelectCollectionViewCell.h; sourceTree = "<group>"; };
+		04C5FF6A1D5385B70034BCBC /* LDSelectCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDSelectCollectionViewCell.m; sourceTree = "<group>"; };
+		04C5FF6D1D5385B70034BCBC /* ZhuantiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZhuantiViewController.h; sourceTree = "<group>"; };
+		04C5FF6E1D5385B70034BCBC /* ZhuantiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZhuantiViewController.m; sourceTree = "<group>"; };
+		04C5FF701D5385B70034BCBC /* mdztModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mdztModel.h; sourceTree = "<group>"; };
+		04C5FF711D5385B70034BCBC /* mdztModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mdztModel.m; sourceTree = "<group>"; };
+		04C5FF801D53868A0034BCBC /* LDMatchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDMatchView.h; sourceTree = "<group>"; };
+		04C5FF831D5386A80034BCBC /* LDMatchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDMatchView.m; sourceTree = "<group>"; };
+		04D042F11D502E7500BD803D /* Const.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Const.h; sourceTree = "<group>"; };
+		04D042F21D502E7500BD803D /* Const.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Const.m; sourceTree = "<group>"; };
+		04D042F41D502E7500BD803D /* dxbNetwroking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dxbNetwroking.h; sourceTree = "<group>"; };
+		04D042F51D502E7500BD803D /* dxbNetwroking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dxbNetwroking.m; sourceTree = "<group>"; };
+		04E771FA1D4EDF7B00B80674 /* ZhidemaiModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZhidemaiModel.h; sourceTree = "<group>"; };
+		04E771FB1D4EDF7B00B80674 /* ZhidemaiModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZhidemaiModel.m; sourceTree = "<group>"; };
+		162C19377E74BFC4F75A56EF /* Pods-Aidapei.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aidapei.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Aidapei/Pods-Aidapei.debug.xcconfig"; sourceTree = "<group>"; };
+		AB33CA301092A9578B144426 /* libPods-Aidapei.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Aidapei.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F19E8A7EE57ABB6D24A07F0B /* Pods-Aidapei.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aidapei.release.xcconfig"; path = "Pods/Target Support Files/Pods-Aidapei/Pods-Aidapei.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04C11B961D4B714A001869DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B99032D96D5229B74AF693F /* libPods-Aidapei.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C11BA91D4B714B001869DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C11BB41D4B714B001869DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040208741D531F9200A13009 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				040208751D531FA700A13009 /* DataBase.h */,
+				040208761D531FA700A13009 /* DataBase.m */,
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		044512B81D4DAC7C00E4A8D3 /* Zhidemai */ = {
+			isa = PBXGroup;
+			children = (
+				044512B91D4DAC7C00E4A8D3 /* Controller */,
+				044512BA1D4DAC7C00E4A8D3 /* Model */,
+				044512BD1D4DAC7C00E4A8D3 /* View */,
+			);
+			path = Zhidemai;
+			sourceTree = "<group>";
+		};
+		044512B91D4DAC7C00E4A8D3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				044512C81D4DACC400E4A8D3 /* ZhidemaiViewController.h */,
+				044512C91D4DACC400E4A8D3 /* ZhidemaiViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		044512BA1D4DAC7C00E4A8D3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04E771FA1D4EDF7B00B80674 /* ZhidemaiModel.h */,
+				04E771FB1D4EDF7B00B80674 /* ZhidemaiModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		044512BD1D4DAC7C00E4A8D3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				044512BE1D4DAC7C00E4A8D3 /* dxbTableViewCell0.h */,
+				044512BF1D4DAC7C00E4A8D3 /* dxbTableViewCell0.m */,
+				044512C01D4DAC7C00E4A8D3 /* dxbTableViewCell1.h */,
+				044512C11D4DAC7C00E4A8D3 /* dxbTableViewCell1.m */,
+				044512C21D4DAC7C00E4A8D3 /* dxbTableViewCell2.h */,
+				044512C31D4DAC7C00E4A8D3 /* dxbTableViewCell2.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0474B3EB1D51820300232FC7 /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				0474B3EC1D51821200232FC7 /* Controller */,
+			);
+			name = Collection;
+			path = ../Collection;
+			sourceTree = "<group>";
+		};
+		0474B3EC1D51821200232FC7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0474B3ED1D51822C00232FC7 /* dxbCollectionViewController.h */,
+				0474B3EE1D51822C00232FC7 /* dxbCollectionViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0474B3F01D5182A000232FC7 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				0474B3F61D5184F300232FC7 /* setting */,
+				0474B3F11D5182C400232FC7 /* connectUS */,
+				0474B3EB1D51820300232FC7 /* Collection */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		0474B3F11D5182C400232FC7 /* connectUS */ = {
+			isa = PBXGroup;
+			children = (
+				0474B3F21D51830200232FC7 /* Controller */,
+			);
+			path = connectUS;
+			sourceTree = "<group>";
+		};
+		0474B3F21D51830200232FC7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0474B3F31D51833000232FC7 /* dxbConnectUSViewController.h */,
+				0474B3F41D51833000232FC7 /* dxbConnectUSViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0474B3F61D5184F300232FC7 /* setting */ = {
+			isa = PBXGroup;
+			children = (
+				0474B3F71D5184FC00232FC7 /* Controller */,
+			);
+			path = setting;
+			sourceTree = "<group>";
+		};
+		0474B3F71D5184FC00232FC7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0474B3F81D51851300232FC7 /* dxbSettingViewController.h */,
+				0474B3F91D51851300232FC7 /* dxbSettingViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		047F85CF1D51C58600B04D49 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				047F85D01D51C5BF00B04D49 /* dxbDiscoverCell0.h */,
+				047F85D11D51C5BF00B04D49 /* dxbDiscoverCell0.m */,
+				047F85D31D51D3ED00B04D49 /* dxbDiscoverCell1.h */,
+				047F85D41D51D3ED00B04D49 /* dxbDiscoverCell1.m */,
+				047F85D61D51D8CF00B04D49 /* dxbDiscoverCell2.h */,
+				047F85D71D51D8CF00B04D49 /* dxbDiscoverCell2.m */,
+				047F85D91D51DABE00B04D49 /* dxbDiscoverCell3.h */,
+				047F85DA1D51DABE00B04D49 /* dxbDiscoverCell3.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		047F85DC1D51EC8400B04D49 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				047F85DD1D51ECA100B04D49 /* DiscoverModel.h */,
+				047F85DE1D51ECA100B04D49 /* DiscoverModel.m */,
+				047F86031D521C4300B04D49 /* DiscoverDetailModel.h */,
+				047F86041D521C4300B04D49 /* DiscoverDetailModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04C11B901D4B714A001869DF = {
+			isa = PBXGroup;
+			children = (
+				04C11B9B1D4B714A001869DF /* Aidapei */,
+				04C11BAF1D4B714B001869DF /* AidapeiTests */,
+				04C11BBA1D4B714B001869DF /* AidapeiUITests */,
+				04C11B9A1D4B714A001869DF /* Products */,
+				1605EB490FFD14E3818AF0DD /* Pods */,
+				CB3DC2E32FD565C5CE527287 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04C11B9A1D4B714A001869DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04C11B991D4B714A001869DF /* Aidapei.app */,
+				04C11BAC1D4B714B001869DF /* AidapeiTests.xctest */,
+				04C11BB71D4B714B001869DF /* AidapeiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04C11B9B1D4B714A001869DF /* Aidapei */ = {
+			isa = PBXGroup;
+			children = (
+				04D042EF1D502E7500BD803D /* Expand */,
+				04C11BC91D4B718A001869DF /* Main */,
+				04C11B9F1D4B714A001869DF /* AppDelegate.h */,
+				04C11BA01D4B714A001869DF /* AppDelegate.m */,
+				04C11BA21D4B714A001869DF /* Assets.xcassets */,
+				04C11BA71D4B714A001869DF /* Info.plist */,
+				04C11B9C1D4B714A001869DF /* Supporting Files */,
+			);
+			path = Aidapei;
+			sourceTree = "<group>";
+		};
+		04C11B9C1D4B714A001869DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04C11B9D1D4B714A001869DF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04C11BAF1D4B714B001869DF /* AidapeiTests */ = {
+			isa = PBXGroup;
+			children = (
+				04C11BB01D4B714B001869DF /* AidapeiTests.m */,
+				04C11BB21D4B714B001869DF /* Info.plist */,
+			);
+			path = AidapeiTests;
+			sourceTree = "<group>";
+		};
+		04C11BBA1D4B714B001869DF /* AidapeiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04C11BBB1D4B714B001869DF /* AidapeiUITests.m */,
+				04C11BBD1D4B714B001869DF /* Info.plist */,
+			);
+			path = AidapeiUITests;
+			sourceTree = "<group>";
+		};
+		04C11BC91D4B718A001869DF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				04C5FF561D5385B70034BCBC /* Meida */,
+				044512B81D4DAC7C00E4A8D3 /* Zhidemai */,
+				04C11BE01D4B78EF001869DF /* Faxian */,
+				04C11BE11D4B78FD001869DF /* My */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		04C11BE01D4B78EF001869DF /* Faxian */ = {
+			isa = PBXGroup;
+			children = (
+				047F85DC1D51EC8400B04D49 /* Model */,
+				047F85CF1D51C58600B04D49 /* View */,
+				04C11BE31D4B790A001869DF /* Controller */,
+			);
+			path = Faxian;
+			sourceTree = "<group>";
+		};
+		04C11BE11D4B78FD001869DF /* My */ = {
+			isa = PBXGroup;
+			children = (
+				0474B3F01D5182A000232FC7 /* Detail */,
+				04C11BE21D4B7905001869DF /* Controller */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		04C11BE21D4B7905001869DF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04C11BE51D4B7955001869DF /* MyViewController.h */,
+				04C11BE61D4B7955001869DF /* MyViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04C11BE31D4B790A001869DF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				044EFBBC1D50C3B1001EC515 /* dxbSearchBar.h */,
+				044EFBBD1D50C3B1001EC515 /* dxbSearchBar.m */,
+				04C11BE81D4B796C001869DF /* DiscoverViewController.h */,
+				04C11BE91D4B796C001869DF /* DiscoverViewController.m */,
+				047F86001D520E9800B04D49 /* dxbDiscoverDetailViewController.h */,
+				047F86011D520E9800B04D49 /* dxbDiscoverDetailViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04C5FF561D5385B70034BCBC /* Meida */ = {
+			isa = PBXGroup;
+			children = (
+				04C5FF571D5385B70034BCBC /* Controller */,
+				04C5FF601D5385B70034BCBC /* Feilei */,
+				04C5FF631D5385B70034BCBC /* Model */,
+				04C5FF661D5385B70034BCBC /* View */,
+				04C5FF6B1D5385B70034BCBC /* Zhuanti */,
+			);
+			path = Meida;
+			sourceTree = "<group>";
+		};
+		04C5FF571D5385B70034BCBC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04C5FF581D5385B70034BCBC /* LDActionViewController.h */,
+				04C5FF591D5385B70034BCBC /* LDActionViewController.m */,
+				04C5FF5A1D5385B70034BCBC /* LDMatchViewController.h */,
+				04C5FF5B1D5385B70034BCBC /* LDMatchViewController.m */,
+				04C5FF5C1D5385B70034BCBC /* LDTaoBaoViewController.h */,
+				04C5FF5D1D5385B70034BCBC /* LDTaoBaoViewController.m */,
+				04C5FF5E1D5385B70034BCBC /* MeidaViewController.h */,
+				04C5FF5F1D5385B70034BCBC /* MeidaViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04C5FF601D5385B70034BCBC /* Feilei */ = {
+			isa = PBXGroup;
+			children = (
+				04C5FF611D5385B70034BCBC /* LDClassifyViewController.h */,
+				04C5FF621D5385B70034BCBC /* LDClassifyViewController.m */,
+			);
+			path = Feilei;
+			sourceTree = "<group>";
+		};
+		04C5FF631D5385B70034BCBC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04C5FF641D5385B70034BCBC /* LDSelectJson.h */,
+				04C5FF651D5385B70034BCBC /* LDSelectJson.m */,
+				04C5FF801D53868A0034BCBC /* LDMatchView.h */,
+				04C5FF831D5386A80034BCBC /* LDMatchView.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04C5FF661D5385B70034BCBC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04C5FF671D5385B70034BCBC /* LDCollectionViewLayout.h */,
+				04C5FF681D5385B70034BCBC /* LDCollectionViewLayout.m */,
+				04C5FF691D5385B70034BCBC /* LDSelectCollectionViewCell.h */,
+				04C5FF6A1D5385B70034BCBC /* LDSelectCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04C5FF6B1D5385B70034BCBC /* Zhuanti */ = {
+			isa = PBXGroup;
+			children = (
+				04C5FF6C1D5385B70034BCBC /* Controller */,
+				04C5FF6F1D5385B70034BCBC /* Model */,
+			);
+			path = Zhuanti;
+			sourceTree = "<group>";
+		};
+		04C5FF6C1D5385B70034BCBC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04C5FF6D1D5385B70034BCBC /* ZhuantiViewController.h */,
+				04C5FF6E1D5385B70034BCBC /* ZhuantiViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04C5FF6F1D5385B70034BCBC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04C5FF701D5385B70034BCBC /* mdztModel.h */,
+				04C5FF711D5385B70034BCBC /* mdztModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04D042EF1D502E7500BD803D /* Expand */ = {
+			isa = PBXGroup;
+			children = (
+				040208741D531F9200A13009 /* DataBase */,
+				04D042F01D502E7500BD803D /* Const */,
+				04D042F31D502E7500BD803D /* Network */,
+			);
+			path = Expand;
+			sourceTree = "<group>";
+		};
+		04D042F01D502E7500BD803D /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				04D042F11D502E7500BD803D /* Const.h */,
+				04D042F21D502E7500BD803D /* Const.m */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		04D042F31D502E7500BD803D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				0471A04A1D5382D400516B92 /* LDhttpEngine.h */,
+				0471A04B1D5382D400516B92 /* LDhttpEngine.m */,
+				04D042F41D502E7500BD803D /* dxbNetwroking.h */,
+				04D042F51D502E7500BD803D /* dxbNetwroking.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		1605EB490FFD14E3818AF0DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				162C19377E74BFC4F75A56EF /* Pods-Aidapei.debug.xcconfig */,
+				F19E8A7EE57ABB6D24A07F0B /* Pods-Aidapei.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CB3DC2E32FD565C5CE527287 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB33CA301092A9578B144426 /* libPods-Aidapei.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04C11B981D4B714A001869DF /* Aidapei */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C11BC01D4B714B001869DF /* Build configuration list for PBXNativeTarget "Aidapei" */;
+			buildPhases = (
+				DCD80DFE6E3F374D4C2CDE3D /*  Check Pods Manifest.lock */,
+				1CC57F93733FE4803A1D27C3 /*  Check Pods Manifest.lock */,
+				BED0EFBE89A7B18ACD6BBB2E /*  Check Pods Manifest.lock */,
+				93330435CB7A7E07E22FF1E4 /*  Check Pods Manifest.lock */,
+				E21D4B9DA4918379113E5F49 /* [CP] Check Pods Manifest.lock */,
+				804823C7705529DCE434E686 /* [CP] Check Pods Manifest.lock */,
+				04C11B951D4B714A001869DF /* Sources */,
+				04C11B961D4B714A001869DF /* Frameworks */,
+				04C11B971D4B714A001869DF /* Resources */,
+				2B7F59961335472FBB68030C /* [CP] Embed Pods Frameworks */,
+				A8DF91C2FE688ECC7C7471E4 /* [CP] Copy Pods Resources */,
+				165A031714D1DA9A7EB333BF /*  Embed Pods Frameworks */,
+				4E2F78615B82BC9239D87830 /*  Copy Pods Resources */,
+				5FB60F10C390D1E8BC7A1235 /*  Embed Pods Frameworks */,
+				46CAE1B7FE33AE12DF2A07D3 /*  Copy Pods Resources */,
+				2D70E7D30DE62B16EABDED74 /*  Embed Pods Frameworks */,
+				F1089B55922B91C8152B7D63 /*  Copy Pods Resources */,
+				E76C69E45F6AE97304661B43 /*  Embed Pods Frameworks */,
+				C259629F10424ED47EFC4A2E /*  Copy Pods Resources */,
+				86091F9CEBDBAC4CFD8453B6 /*  Embed Pods Frameworks */,
+				29D426E27E29DC67A45E80A8 /*  Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aidapei;
+			productName = Aidapei;
+			productReference = 04C11B991D4B714A001869DF /* Aidapei.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04C11BAB1D4B714B001869DF /* AidapeiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C11BC31D4B714B001869DF /* Build configuration list for PBXNativeTarget "AidapeiTests" */;
+			buildPhases = (
+				04C11BA81D4B714B001869DF /* Sources */,
+				04C11BA91D4B714B001869DF /* Frameworks */,
+				04C11BAA1D4B714B001869DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04C11BAE1D4B714B001869DF /* PBXTargetDependency */,
+			);
+			name = AidapeiTests;
+			productName = AidapeiTests;
+			productReference = 04C11BAC1D4B714B001869DF /* AidapeiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04C11BB61D4B714B001869DF /* AidapeiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C11BC61D4B714B001869DF /* Build configuration list for PBXNativeTarget "AidapeiUITests" */;
+			buildPhases = (
+				04C11BB31D4B714B001869DF /* Sources */,
+				04C11BB41D4B714B001869DF /* Frameworks */,
+				04C11BB51D4B714B001869DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04C11BB91D4B714B001869DF /* PBXTargetDependency */,
+			);
+			name = AidapeiUITests;
+			productName = AidapeiUITests;
+			productReference = 04C11BB71D4B714B001869DF /* AidapeiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04C11B911D4B714A001869DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = com.Aidapei.www;
+				TargetAttributes = {
+					04C11B981D4B714A001869DF = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = TZTD2X7WVZ;
+					};
+					04C11BAB1D4B714B001869DF = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = TZTD2X7WVZ;
+						TestTargetID = 04C11B981D4B714A001869DF;
+					};
+					04C11BB61D4B714B001869DF = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = TZTD2X7WVZ;
+						TestTargetID = 04C11B981D4B714A001869DF;
+					};
+				};
+			};
+			buildConfigurationList = 04C11B941D4B714A001869DF /* Build configuration list for PBXProject "Aidapei" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04C11B901D4B714A001869DF;
+			productRefGroup = 04C11B9A1D4B714A001869DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04C11B981D4B714A001869DF /* Aidapei */,
+				04C11BAB1D4B714B001869DF /* AidapeiTests */,
+				04C11BB61D4B714B001869DF /* AidapeiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04C11B971D4B714A001869DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C11BA31D4B714A001869DF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C11BAA1D4B714B001869DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C11BB51D4B714B001869DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		165A031714D1DA9A7EB333BF /*  Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = " Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Aidapei/Pods-Aidapei-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1CC57F93733FE4803A1D27C3 /*  Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = " Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		29D426E27E29DC67A45E80A8 /*  Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = " Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Aidapei/Pods-Aidapei-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B7F59961335472FBB68030C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Aidapei/Pods-Aidapei-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D70E7D30DE62B16EABDED74 /*  Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = " Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Aidapei/Pods-Aidapei-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46CAE1B7FE33AE12DF2A07D3 /*  Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = " Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Aidapei/Pods-Aidapei-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E2F78615B82BC9239D87830 /*  Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = " Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Aidapei/Pods-Aidapei-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FB60F10C390D1E8BC7A1235 /*  Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = " Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Aidapei/Pods-Aidapei-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		804823C7705529DCE434E686 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		86091F9CEBDBAC4CFD8453B6 /*  Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = " Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Aidapei/Pods-Aidapei-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93330435CB7A7E07E22FF1E4 /*  Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = " Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A8DF91C2FE688ECC7C7471E4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Aidapei/Pods-Aidapei-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BED0EFBE89A7B18ACD6BBB2E /*  Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = " Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C259629F10424ED47EFC4A2E /*  Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = " Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Aidapei/Pods-Aidapei-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCD80DFE6E3F374D4C2CDE3D /*  Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = " Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E21D4B9DA4918379113E5F49 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E76C69E45F6AE97304661B43 /*  Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = " Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Aidapei/Pods-Aidapei-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1089B55922B91C8152B7D63 /*  Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = " Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Aidapei/Pods-Aidapei-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04C11B951D4B714A001869DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047F85D21D51C5BF00B04D49 /* dxbDiscoverCell0.m in Sources */,
+				04C5FF721D5385B70034BCBC /* LDActionViewController.m in Sources */,
+				047F85D81D51D8CF00B04D49 /* dxbDiscoverCell2.m in Sources */,
+				04C5FF751D5385B70034BCBC /* MeidaViewController.m in Sources */,
+				04C11BEA1D4B796C001869DF /* DiscoverViewController.m in Sources */,
+				044512C51D4DAC7C00E4A8D3 /* dxbTableViewCell0.m in Sources */,
+				0474B3FA1D51851300232FC7 /* dxbSettingViewController.m in Sources */,
+				04C5FF771D5385B70034BCBC /* LDSelectJson.m in Sources */,
+				044512C61D4DAC7C00E4A8D3 /* dxbTableViewCell1.m in Sources */,
+				044EFBBE1D50C3B1001EC515 /* dxbSearchBar.m in Sources */,
+				04C11BA11D4B714A001869DF /* AppDelegate.m in Sources */,
+				044512CA1D4DACC400E4A8D3 /* ZhidemaiViewController.m in Sources */,
+				04D042F91D502E7500BD803D /* dxbNetwroking.m in Sources */,
+				047F86021D520E9800B04D49 /* dxbDiscoverDetailViewController.m in Sources */,
+				04C5FF791D5385B70034BCBC /* LDSelectCollectionViewCell.m in Sources */,
+				0471A04C1D5382D400516B92 /* LDhttpEngine.m in Sources */,
+				04C5FF841D5386A80034BCBC /* LDMatchView.m in Sources */,
+				04E771FC1D4EDF7B00B80674 /* ZhidemaiModel.m in Sources */,
+				04C5FF781D5385B70034BCBC /* LDCollectionViewLayout.m in Sources */,
+				047F85DB1D51DABE00B04D49 /* dxbDiscoverCell3.m in Sources */,
+				0474B3F51D51833000232FC7 /* dxbConnectUSViewController.m in Sources */,
+				04C5FF741D5385B70034BCBC /* LDTaoBaoViewController.m in Sources */,
+				04C5FF761D5385B70034BCBC /* LDClassifyViewController.m in Sources */,
+				04C11B9E1D4B714A001869DF /* main.m in Sources */,
+				04D042F81D502E7500BD803D /* Const.m in Sources */,
+				04C11BE71D4B7955001869DF /* MyViewController.m in Sources */,
+				047F86051D521C4300B04D49 /* DiscoverDetailModel.m in Sources */,
+				04C5FF731D5385B70034BCBC /* LDMatchViewController.m in Sources */,
+				040208771D531FA700A13009 /* DataBase.m in Sources */,
+				047F85DF1D51ECA100B04D49 /* DiscoverModel.m in Sources */,
+				0474B3EF1D51822C00232FC7 /* dxbCollectionViewController.m in Sources */,
+				044512C71D4DAC7C00E4A8D3 /* dxbTableViewCell2.m in Sources */,
+				04C5FF7A1D5385B70034BCBC /* ZhuantiViewController.m in Sources */,
+				04C5FF7B1D5385B70034BCBC /* mdztModel.m in Sources */,
+				047F85D51D51D3ED00B04D49 /* dxbDiscoverCell1.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C11BA81D4B714B001869DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C11BB11D4B714B001869DF /* AidapeiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C11BB31D4B714B001869DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C11BBC1D4B714B001869DF /* AidapeiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04C11BAE1D4B714B001869DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04C11B981D4B714A001869DF /* Aidapei */;
+			targetProxy = 04C11BAD1D4B714B001869DF /* PBXContainerItemProxy */;
+		};
+		04C11BB91D4B714B001869DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04C11B981D4B714A001869DF /* Aidapei */;
+			targetProxy = 04C11BB81D4B714B001869DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04C11BBE1D4B714B001869DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04C11BBF1D4B714B001869DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04C11BC11D4B714B001869DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 162C19377E74BFC4F75A56EF /* Pods-Aidapei.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Aidapei/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Aidapei.Aidapei;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04C11BC21D4B714B001869DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F19E8A7EE57ABB6D24A07F0B /* Pods-Aidapei.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Aidapei/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Aidapei.Aidapei;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04C11BC41D4B714B001869DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AidapeiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Aidapei.AidapeiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aidapei.app/Aidapei";
+			};
+			name = Debug;
+		};
+		04C11BC51D4B714B001869DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AidapeiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Aidapei.AidapeiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aidapei.app/Aidapei";
+			};
+			name = Release;
+		};
+		04C11BC71D4B714B001869DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AidapeiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Aidapei.AidapeiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Aidapei;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		04C11BC81D4B714B001869DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AidapeiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Aidapei.AidapeiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Aidapei;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04C11B941D4B714A001869DF /* Build configuration list for PBXProject "Aidapei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C11BBE1D4B714B001869DF /* Debug */,
+				04C11BBF1D4B714B001869DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04C11BC01D4B714B001869DF /* Build configuration list for PBXNativeTarget "Aidapei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C11BC11D4B714B001869DF /* Debug */,
+				04C11BC21D4B714B001869DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04C11BC31D4B714B001869DF /* Build configuration list for PBXNativeTarget "AidapeiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C11BC41D4B714B001869DF /* Debug */,
+				04C11BC51D4B714B001869DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04C11BC61D4B714B001869DF /* Build configuration list for PBXNativeTarget "AidapeiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C11BC71D4B714B001869DF /* Debug */,
+				04C11BC81D4B714B001869DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04C11B911D4B714A001869DF /* Project object */;
+}
